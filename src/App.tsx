@@ -8,14 +8,14 @@ import Navbar from "./components/Navbar/Navbar"
 function App() {
 
   return (
-    <>
+    <div className="flex justify-center">
       <Navbar/>
       <Hero/>
       <About/>
       <Mywork/>
       <Contact/>
       <Footer/>
-    </>
+    </div>
   )
 }
 
